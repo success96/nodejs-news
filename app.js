@@ -24,5 +24,4 @@ app.use('/', newsRouter)
 
 //listen on port 5000
 app.listen(port, 
-    ()=> console.log(`News app is listening on port ${port}`)
-    )
+    ()=> console.log(`News app is listening on port ${port}`))
